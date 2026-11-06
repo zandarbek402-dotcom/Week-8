@@ -1,0 +1,10 @@
+/// PDA seeds
+pub const CONFIG_SEED: &[u8] = b"config";
+pub const SHARE_MINT_SEED: &[u8] = b"shares";
+pub const VAULT_TOKEN_SEED: &[u8] = b"vault";
+pub const USER_SEED: &[u8] = b"user";
+
+/// 100% = 10_000 basis points
+pub const MAX_BPS: u16 = 10_000;
+/// Max allowed withdraw fee: 10%
+pub const MAX_FEE_BPS: u16 = 1_000;
